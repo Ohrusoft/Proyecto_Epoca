@@ -42,8 +42,8 @@ public class Servlet_2 extends HttpServlet {
             out.println("<body style=\"background-color:#f6eda8;\">");
             String para1=null;
             para1=request.getParameter("epoca");
-            int edad=Integer.parseInt(para1);
-            if (edad>=1950 && edad<1960){
+            int edad = Integer.parseInt(para1);
+            if (edad >= 1950 && edad < 1960){
                 out.println("<h1><center>"+"Epoca de los 50s"+"</center></h1>");
                 out.println("<h3>"+
 "Cuando la gente habla de los años 50s, describen esta época como tradicional, optimista y de gran progreso. Llegó la industrialización y la economía solamente crecía, causando que la gente dejara las áreas rurales y se mudara a la ciudad. Las personas se volvían consumistas y se empezaban a vender más productos norteamericanos. Los adolescentes se volvieron una parte importante de la población y era común que tuvieran trabajos. La música, la televisión, las revistas, el cine y los libros" +"</h3>");
@@ -52,7 +52,7 @@ public class Servlet_2 extends HttpServlet {
                 out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/V9Z439YYyD0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
             }
             else{
-                if (edad>=1960 && edad<1970){
+                if (edad >= 1960 && edad < 1970){
                     out.println("<h1><center>"+"Epoca de los 60s"+"</center></h1>");
                     out.println("<h3>"+
    "Los años 70 serán recordados siempre no solo por haber significado una década llena de cambios políticos y sociales sino que además están muy marcados por la cultura y sobre todo por la moda y la estética Los cambios sociales que se instauraron en la década de los 70, se originaron a finales de los 50 y sobre todo en los 60, una década de «revoluciones» que culminó con una estética tan marcada que tan solo verla en la actualidad nos retrotrae esos años 70 que marcaron tanto en la música, como el cine y también así la moda." +"</h3>");
@@ -61,37 +61,45 @@ public class Servlet_2 extends HttpServlet {
                     out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Q_ZzBGPdqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
                 }
                 else {
-                    if(edad>=1970 && edad<1980){
-						out.println("<h1><center>"+"Epoca de los 70s"+"</center></h1>");
-						out.println("<h3>"+
-		"Fue la época de la rebeldía mundial en prácticamente todos los rubros de la vida cotidiana.\n" +
-	"En política, surgieron figuras emblemáticas como la del Che Guevara .\n" +
-	"Apareció el movimiento hippie. El rock como forma de protesta hacia la guerra, los conflictos raciales y la censura. el inicio del movimiento de “liberación sexual”.\n" +
-	"En cuanto a los avances en ciencia, tecnología, salud y cultura, Yuri Gagarin, cosmonauta soviético, realizó el primer vuelo espacial. “Veo la Tierra es tan hermosa”, dijo entonces. Neil Armstrong, tripulante de la misión norteamericana Apolo 11, caminó sobre la superficie de la Luna. En Sudáfrica, el doctor Christiaan Barnard realizó el primer trasplante de corazón en el mundo. Asimismo, se publicó Cien años de soledad del escritor Gabriel García Márquez." +"</h3>");
-						out.println("<center><img src=\"70.jpg\" width=\"450\" height=\"300\"></center><br>");
-						out.println("<h2>Saturday night fever</h2> ");
-						out.println("<h3>"+ "Tony Manero no tiene mucho que hacer durante la semana. Todavía vive en casa de sus padres y trabaja como dependiente en una tienda de pintura en su barrio de Brooklyn. Él vive por y para el fin de semana cuando va junto a sus amigos a la discoteca local para bailar toda la noche."+ "</h3><br>");
-						out.println("<center><iframe width="560" height="315" src="https://www.youtube.com/embed/op5FxEs1aR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/op5FxEs1aR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Q_ZzBGPdqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
-						
+                    if(edad >= 1970 && edad < 1980){
+                        out.println("<h1><center>"+"Epoca de los 70s"+"</center></h1>");
+                        out.println("<h3>" + 
+"Fue la época de la rebeldía mundial en prácticamente todos los rubros de la vida cotidiana.\n" +
+"En política, surgieron figuras emblemáticas como la del Che Guevara .\n" +
+"Apareció el movimiento hippie. El rock como forma de protesta hacia la guerra, los conflictos raciales y la censura. el inicio del movimiento de “liberación sexual”.\n" +
+"En cuanto a los avances en ciencia, tecnología, salud y cultura, Yuri Gagarin, cosmonauta soviético, realizó el primer vuelo espacial. “Veo la Tierra es tan hermosa”, dijo entonces. Neil Armstrong, tripulante de la misión norteamericana Apolo 11, caminó sobre la superficie de la Luna. En Sudáfrica, el doctor Christiaan Barnard realizó el primer trasplante de corazón en el mundo. Asimismo, se publicó Cien años de soledad del escritor Gabriel García Márquez." + "</h3>");
+                        out.println("<center><img src=\"70.jpg\" width=\"400\" height=\"300\"></center><br>");
+                        out.println("<h2>Saturday night fever</h2>");
+                        out.println("<h3>" + "Tony Manero no tiene mucho que hacer durante la semana. Todavía vive en casa de sus padres y trabaja como dependiente en una tienda de pintura en su barrio de Brooklyn. Él vive por y para el fin de semana cuando va junto a sus amigos a la discoteca local para bailar toda la noche." + "</h3><br>");
+                        out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/op5FxEs1aR0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
                     }
                     else {
-                        if(edad>=1980 && edad<1990){
-                           out.println("<h1>"+"Disco"+"</h1>"); 
+                        if(edad >= 1980 && edad < 1990){
+                            out.println("<h1><center>"+"Epoca de los 80s" + "</center></h1>");
+                            out.println("<h3>" + "Una década de contrastes. Las tensiones de la Guerra Fría entre Estados Unidos y la Unión Soviética, el terrorismo mundial, la existencia del sida y otras grandes tragedias marcaron la década de los 80. Pero también fue una época de grandes avances y descubrimientos como el primer PC o el internet." + "</h3>");
+                            out.println("<center><img src=\"80.jpg\" width=\"450\" height=\"300\"></center><br>");                            
+                            out.println("<h3>" + "Devuélveme a mi chica» es la sexta canción del primer álbum oficialmente grabado por el grupo español de rock Hombres G. El tema es también conocido popularmente como Sufre mamón, ya que en el estribillo se repite a menudo esa expresión. Devuélveme a mi chica es también la base del argumento de Sufre mamón, la primera película que protagonizaron Hombres G. Tanto la música como la letra son de David Summers." + "</h3><br>");
+                            out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zzIOxHIZEis\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>"); 
                         }
                         else{
-                            if(edad>=1990 && edad<2000){
-                                out.println("<h1>"+"Pop"+"</h1>");
+                            if(edad >= 1990 && edad < 2000){
+                                out.println("<h1><center>" + "Epoca de los 90s" + "</center></h1>");
+                                out.println("<h3>" + "En los años 90, no existía lo que hoy se conoce como “corrección política”, lo que daba pie a que apenas hubiese trabas en el humor, por ejemplo, con bromas que hoy en día sería impensable hacerlas.\n" +
+"Los 90 estuvieron plenos de tecnología como las consolas de videojuegos, los reproductores de discos compactos portátiles, las cámaras fotográficas y la primera evolución de los teléfonos móviles." + "</h3>");
+                                out.println("<center><img src=\"90.jpg\" width=\"450\" height=\"300\"></center><br>");                            
+                                out.println("<h3>" + "Fear of the Dark​ —en español: Miedo a la oscuridad— es el noveno álbum de estudio de la banda Iron Maiden, Salió a la venta el 11 de mayo de 1992 figurando como número 1 en el ranking británico. El álbum arrojó tres sencillos, \"Be Quick or Be Dead\", \"From Here to Eternity\" y \"Wasting Love\" en el mes de septiembre." + "</h3><br>");
+                                out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bePCRKGUwAY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>"); 
                             }
                             else{
                                 if(edad>=2000 && edad<2010){
-                                    out.println("<h1>"+"Regaetton"+"</h1>");
+                                    out.println("<h1>" + "Reggaeton" + "</h1>");
                                 }
                                 else {
                                     if(edad>=2010 && edad<2020){
-                                       out.println("<h1>"+"Electronica"+"</h1>"); 
+                                       out.println("<h1>" + "Electronica" + "</h1>"); 
                                     }
                                     else{
-                                        out.println("<h1>"+"Epoca incorrecta ¿"+"</h1>");
+                                        out.println("<h1>" + "Epoca incorrecta..." + "</h1>");
                                     }
                                 }
                             }
