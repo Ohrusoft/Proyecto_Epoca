@@ -40,7 +40,7 @@ public class Servlet_1 extends HttpServlet {
             out.println("<title>Servlet Servlet_1</title>");            
             out.println("</head>");
             out.println("<body>");
-            String epo="1990";
+            String epo="2000";
             String url="Servlet_2?epoca=" + epo;
             out.println("<a href=\""+url+"\">Segundo servlet </a>");
             out.println("<h1>Servlet Servlet_1 at " + request.getContextPath() + "</h1>");

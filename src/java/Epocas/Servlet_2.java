@@ -92,7 +92,11 @@ public class Servlet_2 extends HttpServlet {
                             }
                             else{
                                 if(edad>=2000 && edad<2010){
-                                    out.println("<h1>" + "Reggaeton" + "</h1>");
+                                    out.println("<h1><center>" + "Epoca de los 00s" + "</center></h1>");
+                                    out.println("<h3>" + "El comienzo del nuevo milenio dio paso a una década de evolución tecnológica con el nacimiento de redes sociales como Facebook y el dominio de Google, la transformación de la industria de la música y la influencia del mundo del espectáculo sobre la cultura y la moda. También se dieron catástrofes naturales, ataques terroristas, desastres financieros y una grave recesión que impactó y transformó la economía global y la manera de vivir en el mundo." + "</h3>");
+                                    out.println("<center><img src=\"2000.jpg\" width=\"450\" height=\"300\"></center><br>");                            
+                                    out.println("<h3>" + "Coldplay es una banda británica de pop rock y rock alternativo formada en Londres en 1996.​​ Está integrada por Chris Martin, Jon Buckland, Guy Berryman y Will Champion. Es uno de los grupos más relevantes de principios de la década de los 2000." + "</h3><br>");
+                                    out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k4V3Mo61fJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>"); 
                                 }
                                 else {
                                     if(edad>=2010 && edad<2020){
