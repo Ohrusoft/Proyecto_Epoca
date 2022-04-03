@@ -55,17 +55,24 @@ public class Servlet_2 extends HttpServlet {
                 if (edad>=1960 && edad<1970){
                     out.println("<h1><center>"+"Epoca de los 60s"+"</center></h1>");
                     out.println("<h3>"+
-    "Fue la época de la rebeldía mundial en prácticamente todos los rubros de la vida cotidiana.\n" +
-"En política, surgieron figuras emblemáticas como la del Che Guevara .\n" +
-"Apareció el movimiento hippie. El rock como forma de protesta hacia la guerra, los conflictos raciales y la censura. el inicio del movimiento de “liberación sexual”.\n" +
-"En cuanto a los avances en ciencia, tecnología, salud y cultura, Yuri Gagarin, cosmonauta soviético, realizó el primer vuelo espacial. “Veo la Tierra es tan hermosa”, dijo entonces. Neil Armstrong, tripulante de la misión norteamericana Apolo 11, caminó sobre la superficie de la Luna. En Sudáfrica, el doctor Christiaan Barnard realizó el primer trasplante de corazón en el mundo. Asimismo, se publicó Cien años de soledad del escritor Gabriel García Márquez." +"</h3>");
+   "Los años 70 serán recordados siempre no solo por haber significado una década llena de cambios políticos y sociales sino que además están muy marcados por la cultura y sobre todo por la moda y la estética Los cambios sociales que se instauraron en la década de los 70, se originaron a finales de los 50 y sobre todo en los 60, una década de «revoluciones» que culminó con una estética tan marcada que tan solo verla en la actualidad nos retrotrae esos años 70 que marcaron tanto en la música, como el cine y también así la moda." +"</h3>");
                     out.println("<center><img src=\"LunaBonita.jpeg\" width=\"450\" height=\"300\"></center><br>");
                     out.println("<h3>"+ "The Beatles, también conocida en el mundo hispano como los Beatles, fue una banda de rock inglesa formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970 por John Lennon, Paul McCartney, George Harrison y Ringo Starr. Help! es el quinto álbum de estudio de la banda británica de rock, The Beatles, al mismo tiempo que banda sonora de su película de mismo título."+ "</h3><br>");
                     out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Q_ZzBGPdqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
                 }
                 else {
                     if(edad>=1970 && edad<1980){
-                         out.println("<h1>"+"Punk"+"</h1>");
+						out.println("<h1><center>"+"Epoca de los 70s"+"</center></h1>");
+						out.println("<h3>"+
+		"Fue la época de la rebeldía mundial en prácticamente todos los rubros de la vida cotidiana.\n" +
+	"En política, surgieron figuras emblemáticas como la del Che Guevara .\n" +
+	"Apareció el movimiento hippie. El rock como forma de protesta hacia la guerra, los conflictos raciales y la censura. el inicio del movimiento de “liberación sexual”.\n" +
+	"En cuanto a los avances en ciencia, tecnología, salud y cultura, Yuri Gagarin, cosmonauta soviético, realizó el primer vuelo espacial. “Veo la Tierra es tan hermosa”, dijo entonces. Neil Armstrong, tripulante de la misión norteamericana Apolo 11, caminó sobre la superficie de la Luna. En Sudáfrica, el doctor Christiaan Barnard realizó el primer trasplante de corazón en el mundo. Asimismo, se publicó Cien años de soledad del escritor Gabriel García Márquez." +"</h3>");
+						out.println("<center><img src=\"70.jpg\" width=\"450\" height=\"300\"></center><br>");
+						out.println("<h2>Saturday night fever</h2> ");
+						out.println("<h3>"+ "Tony Manero no tiene mucho que hacer durante la semana. Todavía vive en casa de sus padres y trabaja como dependiente en una tienda de pintura en su barrio de Brooklyn. Él vive por y para el fin de semana cuando va junto a sus amigos a la discoteca local para bailar toda la noche."+ "</h3><br>");
+						out.println("<center><iframe width="560" height="315" src="https://www.youtube.com/embed/op5FxEs1aR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/op5FxEs1aR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Q_ZzBGPdqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
+						
                     }
                     else {
                         if(edad>=1980 && edad<1990){
