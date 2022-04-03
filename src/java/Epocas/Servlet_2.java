@@ -92,7 +92,7 @@ public class Servlet_2 extends HttpServlet {
                             }
                             else{
                                 if(edad>=2000 && edad<2010){
-                                    out.println("<h1><center>" + "Epoca de los 00s" + "</center></h1>");
+                                    out.println("<h1><center>" + "Epoca de los 2000s" + "</center></h1>");
                                     out.println("<h3>" + "El comienzo del nuevo milenio dio paso a una década de evolución tecnológica con el nacimiento de redes sociales como Facebook y el dominio de Google, la transformación de la industria de la música y la influencia del mundo del espectáculo sobre la cultura y la moda. También se dieron catástrofes naturales, ataques terroristas, desastres financieros y una grave recesión que impactó y transformó la economía global y la manera de vivir en el mundo." + "</h3>");
                                     out.println("<center><img src=\"2000.jpg\" width=\"450\" height=\"300\"></center><br>");                            
                                     out.println("<h3>" + "Coldplay es una banda británica de pop rock y rock alternativo formada en Londres en 1996.​​ Está integrada por Chris Martin, Jon Buckland, Guy Berryman y Will Champion. Es uno de los grupos más relevantes de principios de la década de los 2000." + "</h3><br>");
@@ -100,7 +100,14 @@ public class Servlet_2 extends HttpServlet {
                                 }
                                 else {
                                     if(edad>=2010 && edad<2020){
-                                       out.println("<h1>" + "Electronica" + "</h1>"); 
+                                       out.println("<h1><center>" + "Epoca de los 2010s" + "</center></h1>");
+                                       out.println("<h3>" + "En la década de 2010, el calentamiento global se hizo cada vez más notable a través de nuevas temperaturas récord en diferentes años y eventos climáticos extremos en todos los continentes. Al mismo tiempo, la lucha contra la contaminación y el cambio climático siguió siendo una gran preocupación. Las protestas, las iniciativas y la legislación atrajeron considerable atención de los medios.\n" +
+"También ocurrieron desastres naturales que provocaron miles de muertos como el terremoto de Haití de 2010, el terremoto de Chile de 2010, el terremoto y tsunami de Japón de 2011 (con el añadido de un accidente nuclear en Fukushima) y el terremoto de Puebla de 2017.\n" +
+"En esta década continúa la masificación del uso del internet como nunca antes en el resto del mundo (corriente proveniente ya desde los 2000 en los países del primer mundo) debido a los avances en el procesamiento de datos y el despliegue de la banda ancha." + "</h3><br>");
+                                       out.println("<center><img src=\"10.jpg\" width=\"450\" height\"250\"></center><br>");
+                                       out.println("<h3>" + "LMFAO fue un dúo formado por Redfoo (Stefan Kendal Gordy) y Sky Blu (Skyler Austen Gordy), hijo y sobrino nieto, respectivamente, del productor musical Berry Gordy (Motown). El nombre del grupo es un acrónimo de la expresión coloquial de internet «Laughing My Fucking Ass Off», cuya traducción literal es «partirse el puto culo de risa».\n" +
+"La culminación de su éxito fue su participación en el espectáculo del descanso de la Super Bowl XLVI, protagonizado por Madonna, con sus dos canciones más comerciales: Party Rock Anthem y Sexy and I Know It. LMFAO también teloneó a Madonna en Londres durante la gira The MDNA Tour e hizo un remix de Give Me All Your Luvin'." + "</h3><br>");
+                                       out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KQ6zr6kCPj8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
                                     }
                                     else{
                                         out.println("<h1>" + "Epoca incorrecta..." + "</h1>");
