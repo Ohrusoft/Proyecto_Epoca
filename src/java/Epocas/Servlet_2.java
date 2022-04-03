@@ -39,12 +39,17 @@ public class Servlet_2 extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet Servlet_2</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style=\"background-color:#f6eda8;\">");
             String para1=null;
             para1=request.getParameter("epoca");
             int edad=Integer.parseInt(para1);
             if (edad>=1950 && edad<1960){
-                out.println("<h1>"+"Jazz"+"</h1>");
+                out.println("<h1><center>"+"Epoca de los 50s"+"</center></h1>");
+                out.println("<h3>"+
+"Cuando la gente habla de los años 50s, describen esta época como tradicional, optimista y de gran progreso. Llegó la industrialización y la economía solamente crecía, causando que la gente dejara las áreas rurales y se mudara a la ciudad. Las personas se volvían consumistas y se empezaban a vender más productos norteamericanos. Los adolescentes se volvieron una parte importante de la población y era común que tuvieran trabajos. La música, la televisión, las revistas, el cine y los libros" +"</h3>");
+                out.println("<center><img src=\"1950.jpg\" width=\"450\" height=\"300\"></center><br>");
+                out.println("<h3>"+ "The Platters fue uno de los grupos vocales más exitosos de la primera era del rock and roll. Su sonido distintivo fue un puente entre la tradición anterior al rock de Tin Pan Alley y el nuevo género floreciente. El acto pasó por varios cambios de personal, con la encarnación más exitosa compuesta por el tenor principal Tony Williams, David Lynch, Paul Robi, Herb Reed y Zola Taylor."+ "</h3><br>");
+                out.println("<center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/V9Z439YYyD0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>");
             }
             else{
                 if (edad>=1960 && edad<1970){
@@ -79,9 +84,6 @@ public class Servlet_2 extends HttpServlet {
                     }
                 }
             }
-            
-            out.println("<h2></h2>");
-            out.println("<h1>"+para1+"</h1>");
             out.println("</body>");
             out.println("</html>");
         }
