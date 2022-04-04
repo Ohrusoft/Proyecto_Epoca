@@ -41,7 +41,7 @@ public class Servlet_2 extends HttpServlet {
             out.println("</head>");
             out.println("<body style=\"background-color:#f6eda8;\">");
             String para1=null;
-            para1=request.getParameter("epoca");
+            para1=request.getParameter("epo");
             int edad = Integer.parseInt(para1);
             if (edad >= 1950 && edad < 1960){
                 out.println("<h1><center>"+"Epoca de los 50s"+"</center></h1>");
